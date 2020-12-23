@@ -22,7 +22,6 @@ const Breaking = () => {
 
    // Change page
   const paginate = pageNumber => setCurrentPage(pageNumber);
-  //<BreakingList posts={currentPosts} />
     return (
         <div>
         {currentPosts.map(item =>

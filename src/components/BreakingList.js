@@ -2,7 +2,6 @@ import React from 'react'
 import { Card, Badge } from 'react-bootstrap'
 import './Breaking.css'
 const BreakingList = ({posts,length}) => {
-    console.log(length)
     return (
     
         <div className="all_image my-3">
